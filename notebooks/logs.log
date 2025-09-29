@@ -1,0 +1,664 @@
+2025-09-29 07:56:50,568:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:56:50,568:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:56:50,568:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:56:50,568:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:59:39,749:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:59:39,749:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:59:39,749:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 07:59:39,749:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:31,223:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:31,223:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:31,223:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:31,223:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:37,968:INFO:PyCaret RegressionExperiment
+2025-09-29 08:02:37,970:INFO:Logging name: reg-default-name
+2025-09-29 08:02:37,970:INFO:ML Usecase: MLUsecase.REGRESSION
+2025-09-29 08:02:37,970:INFO:version 3.3.2
+2025-09-29 08:02:37,970:INFO:Initializing setup()
+2025-09-29 08:02:37,970:INFO:self.USI: d6a9
+2025-09-29 08:02:37,970:INFO:self._variable_keys: {'y_test', '_available_plots', 'logging_param', 'y_train', 'X', 'target_param', 'fold_groups_param', 'gpu_n_jobs_param', 'USI', 'data', 'n_jobs_param', 'X_train', 'html_param', 'X_test', 'fold_shuffle_param', 'exp_id', 'seed', 'log_plots_param', 'fold_generator', 'memory', 'idx', 'pipeline', 'y', 'gpu_param', '_ml_usecase', 'transform_target_param', 'exp_name_log'}
+2025-09-29 08:02:37,970:INFO:Checking environment
+2025-09-29 08:02:37,970:INFO:python_version: 3.11.9
+2025-09-29 08:02:37,970:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2025-09-29 08:02:37,970:INFO:machine: AMD64
+2025-09-29 08:02:37,970:INFO:platform: Windows-10-10.0.26100-SP0
+2025-09-29 08:02:37,970:INFO:Memory: svmem(total=16849293312, available=4359782400, percent=74.1, used=12489510912, free=4359782400)
+2025-09-29 08:02:37,970:INFO:Physical Core: 12
+2025-09-29 08:02:37,970:INFO:Logical Core: 16
+2025-09-29 08:02:37,970:INFO:Checking libraries
+2025-09-29 08:02:37,970:INFO:System:
+2025-09-29 08:02:37,970:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2025-09-29 08:02:37,970:INFO:executable: c:\Users\marco.rocha\AppData\Local\Programs\Python\Python311\python.exe
+2025-09-29 08:02:37,970:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-09-29 08:02:37,970:INFO:PyCaret required dependencies:
+2025-09-29 08:02:38,016:INFO:                 pip: 25.2
+2025-09-29 08:02:38,016:INFO:          setuptools: 65.5.0
+2025-09-29 08:02:38,016:INFO:             pycaret: 3.3.2
+2025-09-29 08:02:38,016:INFO:             IPython: 9.5.0
+2025-09-29 08:02:38,016:INFO:          ipywidgets: 8.1.7
+2025-09-29 08:02:38,016:INFO:                tqdm: 4.67.1
+2025-09-29 08:02:38,016:INFO:               numpy: 1.26.4
+2025-09-29 08:02:38,016:INFO:              pandas: 2.1.4
+2025-09-29 08:02:38,016:INFO:              jinja2: 3.1.6
+2025-09-29 08:02:38,016:INFO:               scipy: 1.11.4
+2025-09-29 08:02:38,016:INFO:              joblib: 1.3.2
+2025-09-29 08:02:38,016:INFO:             sklearn: 1.4.2
+2025-09-29 08:02:38,016:INFO:                pyod: 2.0.5
+2025-09-29 08:02:38,016:INFO:            imblearn: 0.14.0
+2025-09-29 08:02:38,016:INFO:   category_encoders: 2.7.0
+2025-09-29 08:02:38,016:INFO:            lightgbm: 4.6.0
+2025-09-29 08:02:38,016:INFO:               numba: 0.62.0
+2025-09-29 08:02:38,016:INFO:            requests: 2.32.5
+2025-09-29 08:02:38,016:INFO:          matplotlib: 3.7.5
+2025-09-29 08:02:38,016:INFO:          scikitplot: 0.3.7
+2025-09-29 08:02:38,016:INFO:         yellowbrick: 1.5
+2025-09-29 08:02:38,016:INFO:              plotly: 6.3.0
+2025-09-29 08:02:38,016:INFO:    plotly-resampler: Not installed
+2025-09-29 08:02:38,016:INFO:             kaleido: 1.1.0
+2025-09-29 08:02:38,016:INFO:           schemdraw: 0.15
+2025-09-29 08:02:38,016:INFO:         statsmodels: 0.14.5
+2025-09-29 08:02:38,016:INFO:              sktime: 0.26.0
+2025-09-29 08:02:38,016:INFO:               tbats: 1.1.3
+2025-09-29 08:02:38,016:INFO:            pmdarima: 2.0.4
+2025-09-29 08:02:38,016:INFO:              psutil: 7.1.0
+2025-09-29 08:02:38,016:INFO:          markupsafe: 3.0.2
+2025-09-29 08:02:38,027:INFO:             pickle5: Not installed
+2025-09-29 08:02:38,027:INFO:         cloudpickle: 3.1.1
+2025-09-29 08:02:38,027:INFO:         deprecation: 2.1.0
+2025-09-29 08:02:38,027:INFO:              xxhash: 3.5.0
+2025-09-29 08:02:38,027:INFO:           wurlitzer: Not installed
+2025-09-29 08:02:38,027:INFO:PyCaret optional dependencies:
+2025-09-29 08:02:38,128:INFO:                shap: Not installed
+2025-09-29 08:02:38,128:INFO:           interpret: Not installed
+2025-09-29 08:02:38,128:INFO:                umap: Not installed
+2025-09-29 08:02:38,128:INFO:     ydata_profiling: Not installed
+2025-09-29 08:02:38,128:INFO:  explainerdashboard: Not installed
+2025-09-29 08:02:38,128:INFO:             autoviz: Not installed
+2025-09-29 08:02:38,128:INFO:           fairlearn: Not installed
+2025-09-29 08:02:38,128:INFO:          deepchecks: Not installed
+2025-09-29 08:02:38,128:INFO:             xgboost: 3.0.5
+2025-09-29 08:02:38,128:INFO:            catboost: Not installed
+2025-09-29 08:02:38,128:INFO:              kmodes: Not installed
+2025-09-29 08:02:38,128:INFO:             mlxtend: Not installed
+2025-09-29 08:02:38,128:INFO:       statsforecast: Not installed
+2025-09-29 08:02:38,128:INFO:        tune_sklearn: Not installed
+2025-09-29 08:02:38,128:INFO:                 ray: Not installed
+2025-09-29 08:02:38,128:INFO:            hyperopt: Not installed
+2025-09-29 08:02:38,128:INFO:              optuna: Not installed
+2025-09-29 08:02:38,128:INFO:               skopt: Not installed
+2025-09-29 08:02:38,128:INFO:              mlflow: Not installed
+2025-09-29 08:02:38,128:INFO:              gradio: Not installed
+2025-09-29 08:02:38,128:INFO:             fastapi: Not installed
+2025-09-29 08:02:38,128:INFO:             uvicorn: Not installed
+2025-09-29 08:02:38,128:INFO:              m2cgen: Not installed
+2025-09-29 08:02:38,128:INFO:           evidently: Not installed
+2025-09-29 08:02:38,128:INFO:               fugue: Not installed
+2025-09-29 08:02:38,128:INFO:           streamlit: 1.50.0
+2025-09-29 08:02:38,128:INFO:             prophet: Not installed
+2025-09-29 08:02:38,128:INFO:None
+2025-09-29 08:02:38,128:INFO:Set up GPU usage.
+2025-09-29 08:02:38,128:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,128:WARNING:cuML is outdated or not found. Required version is >=23.08.
+                Please visit https://rapids.ai/install for installation instructions.
+2025-09-29 08:02:38,128:INFO:Set up data.
+2025-09-29 08:02:38,161:INFO:Set up folding strategy.
+2025-09-29 08:02:38,161:INFO:Set up train/test split.
+2025-09-29 08:02:38,189:INFO:Set up index.
+2025-09-29 08:02:38,195:INFO:Assigning column types.
+2025-09-29 08:02:38,218:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-09-29 08:02:38,218:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,218:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2025-09-29 08:02:38,218:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,218:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-29 08:02:38,218:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,218:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-29 08:02:38,218:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,291:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:38,291:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,321:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:38,321:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,321:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:38,321:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:39,286:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:39,286:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,286:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,286:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,299:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,299:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,307:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,307:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,402:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,402:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,426:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,426:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,426:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,426:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:39,521:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:39,521:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2025-09-29 08:02:39,521:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,521:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,529:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,529:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,532:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,532:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,602:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,604:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,633:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,633:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,633:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,634:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:39,728:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:39,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,733:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,733:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,736:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,736:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,818:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,818:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,852:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,852:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,852:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,852:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:39,944:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:39,945:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2025-09-29 08:02:39,945:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,945:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,953:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:39,961:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-29 08:02:39,961:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,043:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,068:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,068:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,068:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,068:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:40,166:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:40,166:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,166:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,168:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,181:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,181:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,269:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,269:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,285:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,295:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:40,397:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:40,397:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2025-09-29 08:02:40,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,402:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,406:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,496:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,518:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,518:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,518:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,518:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:40,612:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:40,612:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,612:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,618:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,618:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,705:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,705:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,729:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,729:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:40,828:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:40,828:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-09-29 08:02:40,828:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,828:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,836:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,844:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,951:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:40,951:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,979:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,979:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:40,980:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:41,068:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:41,068:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,068:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,068:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,184:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-29 08:02:41,184:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,212:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:41,305:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:41,305:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2025-09-29 08:02:41,305:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,305:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,312:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,320:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,403:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,429:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,429:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,429:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:41,522:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:41,523:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,523:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,528:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,531:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,607:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,628:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,628:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:41,628:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:41,732:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:41,747:INFO:Preparing preprocessing pipeline...
+2025-09-29 08:02:41,747:INFO:Set up simple imputation.
+2025-09-29 08:02:41,846:INFO:Finished creating preprocessing pipeline.
+2025-09-29 08:02:41,846:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\MARCO~1.ROC\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['day', 'month', 'year',
+                                             'day_of_week', 'day_of_year',
+                                             'week_of_year', 'is_weekend',
+                                             'location_encoded',
+                                             'sku_encoded'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2025-09-29 08:02:41,846:INFO:Creating final display dataframe.
+2025-09-29 08:02:42,034:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target          quantity
+2                   Target type        Regression
+3           Original data shape      (206482, 10)
+4        Transformed data shape      (206482, 10)
+5   Transformed train set shape      (165185, 10)
+6    Transformed test set shape       (41297, 10)
+7              Numeric features                 9
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator             KFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU              True
+16               Log Experiment             False
+17              Experiment Name  reg-default-name
+18                          USI              d6a9
+2025-09-29 08:02:42,034:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,034:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,045:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,045:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,105:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,131:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:42,219:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:42,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,234:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,313:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-29 08:02:42,328:INFO:Soft dependency imported: xgboost: 3.0.5
+2025-09-29 08:02:42,445:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-29 08:02:42,445:INFO:setup() successfully completed in 4.48s...............
+2025-09-29 08:02:42,456:INFO:Initializing compare_models()
+2025-09-29 08:02:42,456:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, include=['lightgbm'], exclude=None, fold=None, round=4, cross_validation=True, sort=R2, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, 'include': ['lightgbm'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>})
+2025-09-29 08:02:42,456:INFO:Checking exceptions
+2025-09-29 08:02:42,482:INFO:Preparing display monitor
+2025-09-29 08:02:42,495:INFO:Initializing Light Gradient Boosting Machine
+2025-09-29 08:02:42,495:INFO:Total runtime is 0.0 minutes
+2025-09-29 08:02:42,506:INFO:SubProcess create_model() called ==================================
+2025-09-29 08:02:42,506:INFO:Initializing create_model()
+2025-09-29 08:02:42,506:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, estimator=lightgbm, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001EA87799090>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-29 08:02:42,506:INFO:Checking exceptions
+2025-09-29 08:02:42,506:INFO:Importing libraries
+2025-09-29 08:02:42,506:INFO:Copying training dataset
+2025-09-29 08:02:42,556:INFO:Defining folds
+2025-09-29 08:02:42,556:INFO:Declaring metric variables
+2025-09-29 08:02:42,556:INFO:Importing untrained model
+2025-09-29 08:02:42,556:INFO:Light Gradient Boosting Machine Imported successfully
+2025-09-29 08:02:42,556:INFO:Starting cross validation
+2025-09-29 08:02:42,572:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=1
+2025-09-29 08:02:42,659:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:42,662:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:42,662:INFO:[LightGBM] [Info] Number of data points in the train set: 148666, number of used features: 8
+2025-09-29 08:02:42,708:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:42,708:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:42,955:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:42,955:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:42,963:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.002215 secs. 1 sparse feature groups
+2025-09-29 08:02:42,963:INFO:[LightGBM] [Info] Start training from score 227.829107
+2025-09-29 08:02:43,724:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:43,726:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:43,726:INFO:[LightGBM] [Info] Number of data points in the train set: 148666, number of used features: 8
+2025-09-29 08:02:43,770:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:43,770:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:43,786:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:43,788:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:43,789:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001538 secs. 1 sparse feature groups
+2025-09-29 08:02:43,789:INFO:[LightGBM] [Info] Start training from score 228.780313
+2025-09-29 08:02:44,570:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:44,574:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:44,574:INFO:[LightGBM] [Info] Number of data points in the train set: 148666, number of used features: 8
+2025-09-29 08:02:44,620:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:44,620:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:44,635:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:44,637:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:44,639:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001650 secs. 1 sparse feature groups
+2025-09-29 08:02:44,639:INFO:[LightGBM] [Info] Start training from score 228.268730
+2025-09-29 08:02:45,367:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:45,368:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:45,368:INFO:[LightGBM] [Info] Number of data points in the train set: 148666, number of used features: 8
+2025-09-29 08:02:45,423:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:45,423:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:45,438:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:45,440:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:45,442:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001651 secs. 1 sparse feature groups
+2025-09-29 08:02:45,442:INFO:[LightGBM] [Info] Start training from score 226.239725
+2025-09-29 08:02:46,295:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:46,297:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:46,297:INFO:[LightGBM] [Info] Number of data points in the train set: 148666, number of used features: 8
+2025-09-29 08:02:46,353:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:46,353:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:46,364:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:46,369:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:46,371:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001735 secs. 1 sparse feature groups
+2025-09-29 08:02:46,371:INFO:[LightGBM] [Info] Start training from score 225.327862
+2025-09-29 08:02:47,200:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:47,202:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:47,202:INFO:[LightGBM] [Info] Number of data points in the train set: 148667, number of used features: 8
+2025-09-29 08:02:47,254:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:47,254:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:47,267:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:47,269:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:47,271:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001641 secs. 1 sparse feature groups
+2025-09-29 08:02:47,271:INFO:[LightGBM] [Info] Start training from score 224.886202
+2025-09-29 08:02:48,139:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:48,141:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:48,141:INFO:[LightGBM] [Info] Number of data points in the train set: 148667, number of used features: 8
+2025-09-29 08:02:48,197:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:48,197:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:48,209:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:48,212:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:48,214:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001913 secs. 1 sparse feature groups
+2025-09-29 08:02:48,215:INFO:[LightGBM] [Info] Start training from score 228.518279
+2025-09-29 08:02:49,050:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:49,052:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:49,052:INFO:[LightGBM] [Info] Number of data points in the train set: 148667, number of used features: 8
+2025-09-29 08:02:49,101:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:49,101:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:49,116:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:49,118:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:49,121:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001601 secs. 1 sparse feature groups
+2025-09-29 08:02:49,121:INFO:[LightGBM] [Info] Start training from score 229.928269
+2025-09-29 08:02:49,969:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:49,973:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:49,973:INFO:[LightGBM] [Info] Number of data points in the train set: 148667, number of used features: 8
+2025-09-29 08:02:50,019:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:50,019:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:50,029:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:50,035:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:50,039:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001559 secs. 1 sparse feature groups
+2025-09-29 08:02:50,039:INFO:[LightGBM] [Info] Start training from score 227.217856
+2025-09-29 08:02:50,813:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:50,815:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:50,815:INFO:[LightGBM] [Info] Number of data points in the train set: 148667, number of used features: 8
+2025-09-29 08:02:50,862:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:50,862:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:50,879:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:50,881:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:50,883:INFO:[LightGBM] [Info] 7 dense feature groups (1.13 MB) transferred to GPU in 0.001603 secs. 1 sparse feature groups
+2025-09-29 08:02:50,883:INFO:[LightGBM] [Info] Start training from score 226.998507
+2025-09-29 08:02:51,576:INFO:Calculating mean and std
+2025-09-29 08:02:51,578:INFO:Creating metrics dataframe
+2025-09-29 08:02:51,580:INFO:Uploading results into container
+2025-09-29 08:02:51,580:INFO:Uploading model into container now
+2025-09-29 08:02:51,580:INFO:_master_model_container: 1
+2025-09-29 08:02:51,580:INFO:_display_container: 2
+2025-09-29 08:02:51,580:INFO:LGBMRegressor(device='gpu', n_jobs=-1, random_state=123)
+2025-09-29 08:02:51,580:INFO:create_model() successfully completed......................................
+2025-09-29 08:02:51,677:INFO:SubProcess create_model() end ==================================
+2025-09-29 08:02:51,677:INFO:Creating metrics dataframe
+2025-09-29 08:02:51,698:WARNING:C:\Users\marco.rocha\AppData\Roaming\Python\Python311\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2025-09-29 08:02:51,713:INFO:Initializing create_model()
+2025-09-29 08:02:51,713:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, estimator=LGBMRegressor(device='gpu', n_jobs=-1, random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-29 08:02:51,713:INFO:Checking exceptions
+2025-09-29 08:02:51,714:INFO:Importing libraries
+2025-09-29 08:02:51,714:INFO:Copying training dataset
+2025-09-29 08:02:51,748:INFO:Defining folds
+2025-09-29 08:02:51,748:INFO:Declaring metric variables
+2025-09-29 08:02:51,748:INFO:Importing untrained model
+2025-09-29 08:02:51,748:INFO:Declaring custom model
+2025-09-29 08:02:51,748:INFO:Light Gradient Boosting Machine Imported successfully
+2025-09-29 08:02:51,748:INFO:Cross validation set to False
+2025-09-29 08:02:51,748:INFO:Fitting Model
+2025-09-29 08:02:51,827:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:51,829:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:51,829:INFO:[LightGBM] [Info] Number of data points in the train set: 165185, number of used features: 8
+2025-09-29 08:02:51,875:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:51,875:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:51,888:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:51,890:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:51,894:INFO:[LightGBM] [Info] 7 dense feature groups (1.26 MB) transferred to GPU in 0.001734 secs. 1 sparse feature groups
+2025-09-29 08:02:51,894:INFO:[LightGBM] [Info] Start training from score 227.399485
+2025-09-29 08:02:52,571:INFO:LGBMRegressor(device='gpu', n_jobs=-1, random_state=123)
+2025-09-29 08:02:52,571:INFO:create_model() successfully completed......................................
+2025-09-29 08:02:52,670:INFO:_master_model_container: 1
+2025-09-29 08:02:52,670:INFO:_display_container: 2
+2025-09-29 08:02:52,670:INFO:LGBMRegressor(device='gpu', n_jobs=-1, random_state=123)
+2025-09-29 08:02:52,670:INFO:compare_models() successfully completed......................................
+2025-09-29 08:02:52,670:INFO:Initializing finalize_model()
+2025-09-29 08:02:52,670:INFO:finalize_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, estimator=LGBMRegressor(device='gpu', n_jobs=-1, random_state=123), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2025-09-29 08:02:52,670:INFO:Finalizing LGBMRegressor(device='gpu', n_jobs=-1, random_state=123)
+2025-09-29 08:02:52,686:INFO:Initializing create_model()
+2025-09-29 08:02:52,686:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, estimator=LGBMRegressor(device='gpu', n_jobs=-1, random_state=123), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-29 08:02:52,686:INFO:Checking exceptions
+2025-09-29 08:02:52,686:INFO:Importing libraries
+2025-09-29 08:02:52,686:INFO:Copying training dataset
+2025-09-29 08:02:52,686:INFO:Defining folds
+2025-09-29 08:02:52,686:INFO:Declaring metric variables
+2025-09-29 08:02:52,686:INFO:Importing untrained model
+2025-09-29 08:02:52,686:INFO:Declaring custom model
+2025-09-29 08:02:52,686:INFO:Light Gradient Boosting Machine Imported successfully
+2025-09-29 08:02:52,686:INFO:Cross validation set to False
+2025-09-29 08:02:52,686:INFO:Fitting Model
+2025-09-29 08:02:52,778:INFO:[LightGBM] [Info] This is the GPU trainer!!
+2025-09-29 08:02:52,780:INFO:[LightGBM] [Info] Total Bins 424
+2025-09-29 08:02:52,780:INFO:[LightGBM] [Info] Number of data points in the train set: 206482, number of used features: 8
+2025-09-29 08:02:52,826:INFO:[LightGBM] [Info] Using GPU Device: NVIDIA GeForce RTX 3050 Laptop GPU, Vendor: NVIDIA Corporation
+2025-09-29 08:02:52,826:INFO:[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+2025-09-29 08:02:52,839:INFO:[LightGBM] [Info] GPU programs have been built
+2025-09-29 08:02:52,842:INFO:[LightGBM] [Info] Size of histogram bin entry: 8
+2025-09-29 08:02:52,845:INFO:[LightGBM] [Info] 7 dense feature groups (1.58 MB) transferred to GPU in 0.002857 secs. 1 sparse feature groups
+2025-09-29 08:02:52,845:INFO:[LightGBM] [Info] Start training from score 225.696201
+2025-09-29 08:02:53,546:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['day', 'month', 'year',
+                                             'day_of_week', 'day_of_year',
+                                             'week_of_year', 'is_weekend',
+                                             'location_encoded',
+                                             'sku_encoded'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('actual_estimator',
+                 LGBMRegressor(device='gpu', n_jobs=-1, random_state=123))])
+2025-09-29 08:02:53,547:INFO:create_model() successfully completed......................................
+2025-09-29 08:02:53,633:INFO:_master_model_container: 1
+2025-09-29 08:02:53,633:INFO:_display_container: 2
+2025-09-29 08:02:53,637:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['day', 'month', 'year',
+                                             'day_of_week', 'day_of_year',
+                                             'week_of_year', 'is_weekend',
+                                             'location_encoded',
+                                             'sku_encoded'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('actual_estimator',
+                 LGBMRegressor(device='gpu', n_jobs=-1, random_state=123))])
+2025-09-29 08:02:53,637:INFO:finalize_model() successfully completed......................................
+2025-09-29 08:02:54,425:INFO:Initializing predict_model()
+2025-09-29 08:02:54,425:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EA87746E10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['day', 'month', 'year',
+                                             'day_of_week', 'day_of_year',
+                                             'week_of_year', 'is_weekend',
+                                             'location_encoded',
+                                             'sku_encoded'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('actual_estimator',
+                 LGBMRegressor(device='gpu', n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001EA84C465C0>)
+2025-09-29 08:02:54,425:INFO:Checking exceptions
+2025-09-29 08:02:54,425:INFO:Preloading libraries
+2025-09-29 08:02:54,425:INFO:Set up data.
+2025-09-29 08:02:54,429:INFO:Set up index.

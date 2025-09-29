@@ -1,0 +1,8 @@
+altair==5.5.0
+category_encoders==2.7.0
+numpy==1.26.4
+pandas==2.1.4
+pycaret==3.3.2
+scikit-learn==1.4.2
+streamlit==1.50.0
+xgboost==3.0.5
